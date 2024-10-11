@@ -6,10 +6,12 @@ function Login({ onRegisterClick }) {
       <h2>Login</h2>
       <form>
         <div>
-          <input type="email" placeholder="Your Email" required />
+          <label for="exampleInputEmail1" class="form-label mt-4">Email address <br></br></label>
+          <input type="email" placeholder="Enter Email" required />
         </div>
         <div>
-          <input type="password" placeholder="Your Password" required />
+        <label for="exampleInputEmail1" class="form-label mt-4"><br></br>Password <br></br></label>
+          <input type="password" placeholder="Enter Password" required />
         </div>
         <button type="submit">Login</button>
       </form>

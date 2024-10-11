@@ -6,10 +6,10 @@ function Registration({ onLoginClick }) {
       <h2>Register</h2>
       <form>
         <div>
-          <input type="email" placeholder="Your Email" required />
+          <input type="email" placeholder="Enter Email" required />
         </div>
         <div>
-          <input type="password" placeholder="Your Password" required />
+          <input type="password" placeholder="Enter Password" required />
         </div>
         <div>
           <input type="password" placeholder="Confirm Password" required />
